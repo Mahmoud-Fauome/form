@@ -1,0 +1,67 @@
+  x<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styel/all.min.css">
+    <link rel="stylesheet" href="styel/bootstrap.css">
+    <link rel="stylesheet" href="styel/test.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-secondary ">
+ <div class="container form">
+
+   <form class="pt-3 pb-3 m-3 row" action="home.html" onsubmit="return desplay()">
+    <h1 class=" text-center fs-2">Ceate Account</h1>
+
+          <label class="ms-4 labelFirstName">First Name:</label>
+          <input class="ms-4 col-lg-10  firstName" type="text">
+          
+          <label class="ms-4 labelLastName">Last Name:</label>
+          <input class="ms-4 col-lg-10  lastName" type="text">
+         
+          <label class="ms-4 labelEmail" >E-mail:</label>
+          <input class="ms-4 col-lg-10 email" type="text">
+
+          <label class="ms-4 labelNumber" >Phone Number:</label>
+          <input class="ms-4 col-lg-10 number" type="text">
+
+          <label class="ms-4 labelpassword">Password:</label>
+          <input class="ms-4 col-lg-10 password" type="password">
+         
+          <label class="ms-4 labelConfirmPassword">Confirm Password:</label>
+          <input class="ms-4 col-lg-10 confirmPassword" type="password">
+         <div>
+          <br>
+          <br>
+
+          <label class="ms-4 labelBirhtdate">Birhtdate:</label>
+          <br>
+          <input class="ms-4 birthdate col-lg-8" type="date">
+
+          <br>
+          <br>
+
+          <label class="labelGender">Gender</label>
+
+          <label >Male</label>
+          <input class="Male" type="radio" value="male" name="gender">
+
+          <label >Female</label>
+          <input class="Female" type="radio" value="female" name="gender">
+        </div>
+
+        
+<hr>
+          <input class="col-lg-4 btn btn-dark" type="submit" value="login">
+        </div>
+        </form>
+
+
+    <script src="form.js"></script>
+</body>
+</html>
